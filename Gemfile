@@ -18,6 +18,7 @@ gem 'devise'
 gem 'activeadmin'
 gem 'active_skin'
 gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
+gem "paperclip", "~> 5.0.0"
 
 
 group :development, :test do
